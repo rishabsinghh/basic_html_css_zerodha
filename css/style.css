@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:400,500);
+
+
+.head{
+    display: none;
+}
+
+.landing-body-contents{
+  margin-top: 100px;
+  padding:20px;
+}
+h1{
+    display: block;
+    font-family: Inter,serif;
+    font-size: 2.75rem;
+    margin: 0.67rem 0;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #424242;
+    
+}
+
+h5{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: Inter,serif;
+    font-size:1.25rem;
+    font-weight: 400;
+    color: #424242;
+
+}
+
+.tabs {
+    display: flex;
+    top:0;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 2px 1px 2px #eee;
+    background-color: #fff;
+    perspective: 600px;
+    justify-content: space-evenly;
+
+  }
+
+  
+
+.right-tab {
+    display: flex;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #666;
+    cursor: pointer;
+    justify-content: 
+
+  }
+
+  .right-tab div {
+   padding:20px;
+   transition: color 0.3s ease;
+  }
+
+  .right-tab div:hover {
+    /* Apply styling when the element is hovered */
+    color: #387ed1; /* Set the text color on hover */
+}
+
+.left-tab img{
+
+      max-width: 100%; 
+      position: relative;
+      top: 18px;
+      max-height: 17px;
+      vertical-align: middle;
+      border-style: none;
+
+}
+  
+
+
+
+  
+  .button{
+    padding:10px 30px 10px 30px;
+    display: inline-block;
+    display:inline-block;
+    font-size: x-large;
+    text-align: center;
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0);
+    background-color:#387ed1;
+    cursor: pointer;
+    box-sizing: border-box;
+    appearance: auto;
+  }
+
+  .button:hover {
+    background-color: #000 ;
+    color: white;
+  }
